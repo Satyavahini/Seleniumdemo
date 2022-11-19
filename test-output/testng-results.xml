@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32824" started-at="2022-11-01T09:42:50Z" finished-at="2022-11-01T09:43:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32824" started-at="2022-11-01T09:42:50Z" finished-at="2022-11-01T09:43:23Z">
+      <class name="testcase.Datapro$dataprovider">
+        <test-method status="PASS" signature="openbroswer()[pri:0, instance:testcase.Datapro$dataprovider@402a079c]" name="openbroswer" is-config="true" duration-ms="4427" started-at="2022-11-01T09:42:50Z" finished-at="2022-11-01T09:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbroswer -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:testcase.Datapro$dataprovider@402a079c]" name="search" duration-ms="14723" started-at="2022-11-01T09:42:55Z" data-provider="Multiinput" finished-at="2022-11-01T09:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Realme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Realme Buy original product|Amazon.in ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:testcase.Datapro$dataprovider@402a079c]" name="search" duration-ms="7800" started-at="2022-11-01T09:43:10Z" data-provider="Multiinput" finished-at="2022-11-01T09:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Redmi Buy original product|Amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:testcase.Datapro$dataprovider@402a079c]" name="search" duration-ms="5804" started-at="2022-11-01T09:43:17Z" data-provider="Multiinput" finished-at="2022-11-01T09:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vivo Buy original product|Amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testcase.Datapro$dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
